@@ -1,0 +1,39 @@
+Player,Goals,Season
+A,1,2020
+A,2,2020
+B,5,2020
+B,6,2020
+A,1,2021
+A,0,2021
+B,5,2021
+B,6,2021
+A,2,2022
+A,3,2022
+B,10,2022
+B,9,2022
+,,
+,,
+,,
+Discrimination computation,,
+Variance of A in 2020,0.5,
+Variance of B in 2020,0.5,
+Avg player variance In 2020,0.5,
+Overall variance in 2020,5.67,
+Discrimination in 2020,0.91,
+,,
+Variance of A in 2021,0.5,
+Variance of B in 2021,0.5,
+Avg player variance In 2021,0.5,
+Overall variance in 2021,8.67,
+Discrimination in 2021,0.94,
+,,
+Variance of A in 2022,0.5,
+Variance of B in 2022,0.5,
+Avg player variance In 2022,0.5,
+Overall variance in 2022,16.67,
+Discrimination in 2022,0.97,
+,,
+Average Discrimination,0.94,
+,,
+,,
+Stability computation,,
