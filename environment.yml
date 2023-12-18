@@ -1,0 +1,7 @@
+name: asa
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+prefix: C:\Users\ranji\miniconda3\envs\asa
