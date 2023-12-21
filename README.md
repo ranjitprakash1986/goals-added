@@ -157,24 +157,22 @@ The change in Discrimination across the seasons can be better visualized as a li
 
 What can we infer from the above analysis?
 
-Both Discrimination and Stability are metrics that are largely depending on nature of the data in the evaluation metric. The noise in the evaluation metric needs to be trimmed through data collection or data analysis methods to ensure that the evaluation metric provide a true comparison of player's ability. 
+Both Discrimination and Stability are meta-metrics that are largely dependent on nature of the data in the evaluated metric. The noise in the evaluated metric needs to be minimized through data collection or data analysis methods to ensure that the evaluation metric provides a measure of player's ability. 
 
-Thus there is no specific threshold that defined a 'good' Discrimination or Stability score. These scores could thus be used as a supplement to other contextual information to better understand the underlying evaluation metric. They could be used to compare and improve design of evaluation metrics. 
+Thus, there is no specific threshold that defines a 'good' Discrimination or Stability score. These scores should be used as a supplement to other contextual information. They could even be used to compare and improve design of the evaluation metrics. 
 
-Some other notable inferences:
+Other notable inferences:
 
-* The data is evaluated without consideration of any confounding factors other than the player position.
-* The researchers state in their that Stability is higher for per-minute or per-game metrics (normalized). This could explain be a reason why the `xpass_completion_percentage` has that highest stability amongst the considered evaluation metrics.
-* Metrics that don't change over time, and aren't influenced by player physical deterioration, have high stability but low discrimination. In soccer parlance, the minutes played by players can be one such metric. It is not assessed in the current analysis.
+* The data is evaluated without consideration of any confounding factors other than the player position. Different Players in the same playing position can posses different playing styles which can skew the evaluated metric. Thus there are layers of confounding factors that needs to be controlled for data collection and subsequent analysis.
+* The researchers state in their paper that Stability is higher for per-minute or per-game metrics (normalized metrics). This could explain why the `xpass_completion_percentage` has that highest Stability amongst the considered evaluation metrics.
+* The researchers mention in their paper that metrics which don't change over time, and aren't influenced by player's physical deterioration, have high Stability but low Discrimination. Attempted passes falls under this purview provided the player's playing style remains fairly consistent across seasons.
 
 
 ### 4. Recommendations
 
 * The analysis shows that meta-metrics need to be evaluated in conjunction with contextual information. There are not specific thresholds that qualify a meta-metric as being good or bad. Thus it is necessary to always make relative assessments with prior meta-metric values.
-
-* Recognizing and quantifying sources of variation in the data is important to improve reliability of the meta metric.
-
-* It is important to understand which meta metric is relevant to our analysis. It is not necessary to improve both Discrimination and Stability together. For example, Discrimination is measured in a specific season, whereas Stability is measured across all seasons.
+* Recognizing confounding factors, controlling them during data collection and then minimizing their influence during analysis is important to improve objectivity of the meta-metric.
+* It is important to understand which meta metric is applicable to the question being asked. A high Discrimination and Stability isn't necessarily the desirable scenario. For example, the scope of Discrimination is within each season, whereas Stability is measured across multiple seasons. Thus Discrimination is used to indicate anomalies, player's evaluation metrics that are above or below the general performance of the sample set under consideration. Stability on the other hand is a reflection of consistency across the seasons of the sample set under consideration.
 
 
 ## References
