@@ -110,11 +110,11 @@ I came across this [blog](https://www.americansocceranalysis.com/what-are-goals-
 
 ## 3.1 Applying meta-metrics on MLS data
 
-Unlike the traditional metrics such as goals, assists, passes, tackles etc., the `goals-added` rewards the players depending on the context. It is intriguing to think how this innovating metric fares in terms of our meta-metrics: Discrimination and Stability.
+Unlike the traditional metrics such as goals, assists, passes, tackles etc., the `goals-added` rewards the players depending on the context. It is intriguing to think how this innovative metric fares in terms of our meta-metrics: Discrimination and Stability.
 
 As we saw in the above example - scenario 4, the Discrimination and Stability meta-metrics can yield low values when the dataset is replete with noise. Confounding factors such as playing position, home/away games, match situations, opposition strength are some of the factors that introduce noise into the measurement. While `goals-added` metric does build context depending on the unfolding chain of events, it is not fully evident if the rewarding system scales depending on each of the above confounding factors.
 
-Thus to construct a fair assessment, I filtered data for specifically the players designated as midfielders in the MLS between 2018 to 2023. The code for making the API call and filtering the dataset is available [here]('api_eda.ipynb').
+Thus to construct a fair assessment, I filtered data for specifically the players designated as midfielders in the MLS between 2018 to 2023. The code for making the API call and filtering the dataset is available [here](api_eda.ipynb).
 
 The analysis is thus performed on a subset of 57 midfielders who played each season from 2018 to 2023. It is worth noting that only the metrics from games where the played atleast 30 minutes are considered for the evaluation. This is heuristic estimate of the minimum play time necessary for the player to influence the game. This approach eliminates the confounding factor of player position.
 
