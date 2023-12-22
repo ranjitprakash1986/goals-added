@@ -71,7 +71,7 @@ Due to the players being perfectly equal in performance to each other and across
 ##### Scenario 2
 In scenario 2, A performs better than B in all seasons. B performs consistently across seasons.
 
-![computation_scenario2](pics/computation_scenario2.png)
+![computation_scenario2](pics/cenario2.png)
 
 The computation is as follows:
 
@@ -83,7 +83,7 @@ The Stability is computed for all seasons together. It is appreciable at 0.72, a
 ##### Scenario 3
 In scenario 2, A and B are equal in 2020. However A progressively improves compared to B over the next two seasons. This scenario is of particular interest to analysts who might be looking for player comparison assessments.
 
-![computation_scenario3](pics/computation_scenario3.png)
+![computation_scenario3](pics/scenario3.png)
 
 The computation is as follows:
 
@@ -94,7 +94,7 @@ The Discrimination continues to remain high for the season where A performs bett
 ##### Scenario 4
 The scenario 4 is the one that is often encountered with data. This is the scenario where there is no discernible trend in the player performances. Sometimes A performs better than B and vice versa. 
 
-![computation_scenario4](pics/computation_scenario4.png)
+![computation_scenario4](pics/scenario4.png)
 
 The computation is as follows:
 
